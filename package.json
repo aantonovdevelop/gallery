@@ -7,5 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Artem Antonov <aantonov.develop@gmail.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google-cloud/storage": "^4.3.1",
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/busboy": "^0.2.3",
+    "@types/express": "^4.17.2",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.4",
+    "mocha": "^7.1.0",
+    "ts-mockito": "^2.5.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  }
 }
